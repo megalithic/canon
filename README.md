@@ -1,4 +1,4 @@
-## Canon 
+## Canon
 
 Taking your various social media bookmarks and favorites and aggregating them into one searchable, filterable location.
 
