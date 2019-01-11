@@ -5,22 +5,22 @@ Taking your various social media bookmarks and favorites and aggregating them in
 
 #### Supports
 
-[ ] Instagram
-[ ] Twitter
-[ ] Facebook
-[ ] Slack
-[ ] Reddit
+- [ ] Instagram
+- [ ] Twitter
+- [ ] Facebook
+- [ ] Slack
+- [ ] Reddit
 
 
 #### Features
 
-[ ] API credentials
-[ ] Searchable
-[ ] Filterable
-[ ] Offline accessible
-[ ] Taggable
-[ ] Add notes
-[ ] Mobile friendly
+- [ ] API credentials
+- [ ] Searchable
+- [ ] Filterable
+- [ ] Offline accessible
+- [ ] Taggable
+- [ ] Add notes
+- [ ] Mobile friendly
 
 
 #### Technologies
