@@ -7,3 +7,8 @@ erl_crash.dump
 *.ez
 *.beam
 /config/*.secret.exs
+tags
+.tags
+.elixir_ls
+credo_extra
+elm-stuff
