@@ -5,22 +5,23 @@ Taking your various social media bookmarks and favorites and aggregating them in
 
 #### Supports
 
-- [ ] Instagram
-- [ ] Twitter
-- [ ] Facebook
-- [ ] Slack
-- [ ] Reddit
+- [ ] Instagram (saved)
+- [ ] Twitter (liked)
+- [ ] Facebook (saved)
+- [ ] Slack (starred)
+- [ ] Reddit (saved)
+- [ ] GitHub (starred)
 
 
 #### Features
 
-- [ ] API credentials
+- [ ] User-configurable API credentials
 - [ ] Searchable
 - [ ] Filterable
-- [ ] Offline accessible
+- [ ] Offline-friendly (PWA)
 - [ ] Taggable
-- [ ] Add notes
-- [ ] Mobile friendly
+- [ ] Add notes/metadata
+- [ ] Mobile-friendly
 
 
 #### Technologies
@@ -33,3 +34,5 @@ Taking your various social media bookmarks and favorites and aggregating them in
 
 
 #### More details to come...
+
+[Getting Started](./GETTING_STARTED.md)
