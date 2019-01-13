@@ -6,10 +6,10 @@ defmodule Canon.Auth.Guardian do
     {:ok, sub}
   end
 
-  # def resource_from_claims(claims) do
-  #   case Canon.Accounts.get_user(claims["sub"]) do
-  #     nil -> {:error, "User not found"}
-  #     user -> {:ok, user}
-  #   end
-  # end
+  def resource_from_claims(claims) do
+    case Canon.Accounts.get_user(claims["sub"]) do
+      nil -> {:error, "User not found"}
+      user -> {:ok, user}
+    end
+  end
 end

@@ -15,6 +15,7 @@ Taking your various social media bookmarks and favorites and aggregating them in
 
 #### Features
 
+- [x] Login via API
 - [ ] User-configurable API credentials
 - [ ] Searchable
 - [ ] Filterable
@@ -33,6 +34,6 @@ Taking your various social media bookmarks and favorites and aggregating them in
 * Elm
 
 
-#### More details to come...
+#### Additional Info
 
-[Getting Started](./GETTING_STARTED.md)
+* [Shamelessly using this elm + elixir guide](https://dev.to/miguelcoba/elixir-api-and-elm-spa-4hpf)

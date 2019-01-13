@@ -62,3 +62,7 @@ config :canon, Canon.Repo,
   database: "canon_dev",
   hostname: "localhost",
   pool_size: 10
+
+config :canon, Canon.Auth.Guardian,
+  issuer: "canon",
+  secret_key: System.get_env("GUARDIAN_SECRET_KEY")
