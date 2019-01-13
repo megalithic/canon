@@ -1,11 +1,9 @@
-# Script for populating the database. You can run it as:
-#
-#     mix run priv/repo/seeds.exs
-#
-# Inside the script, you can read and write to any of your
-# repositories directly:
-#
-#     Canon.Repo.insert!(%Canon.SomeSchema{})
-#
-# We recommend using the bang functions (`insert!`, `update!`
-# and so on) as they will fail if something goes wrong.
+# users
+user =
+  Canon.Accounts.User.registration_changeset(%Canon.Accounts.User{}, %{
+    name: "megalithic",
+    email: "seth.messer@gmail.com",
+    password: "Password1"
+  })
+
+Canon.Repo.insert!(user)
