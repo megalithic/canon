@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
+set -o errexit -o errtrace
+
 mix phx.server

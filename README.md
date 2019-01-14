@@ -11,6 +11,7 @@ Taking your various social media bookmarks and favorites and aggregating them in
 - [ ] Slack (starred)
 - [ ] Reddit (saved)
 - [ ] GitHub (starred)
+- [ ] Gmail (starred)
 
 
 #### Features
