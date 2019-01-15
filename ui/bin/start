@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -o errexit -o errtrace
+
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+
+PORT=3001 elm-app start

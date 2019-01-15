@@ -2,4 +2,13 @@
 
 set -o errexit -o errtrace
 
-mix phx.server
+echo ""
+echo "------ Starting Canon..."
+echo ""
+
+# start api
+elixir --name canon-api@127.0.0.1 -S mix phx.server   2>&1 | sed "s/\(.*\)/[api] \1/" &
+# start ui
+./ui/bin/start                                        2>&1 | sed "s/\(.*\)/[ui] \1/" &
+
+wait

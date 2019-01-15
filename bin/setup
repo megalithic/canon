@@ -2,6 +2,10 @@
 
 set -o errexit -o errtrace
 
+echo ""
+echo "------ Installing system dependencies..."
+echo ""
+
 if command -v asdf >/dev/null 2>&1; then
   asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git || true
   asdf plugin-add elm https://github.com/vic/asdf-elm.git || true
@@ -12,3 +16,22 @@ fi
 
 mix local.hex --force --if-missing
 mix local.rebar --force
+
+echo ""
+echo "------ Installing project dependencies and setting up database..."
+echo ""
+
+mix deps.get
+mix ecto.create
+mix ecto.migrate
+# mix ecto.seed # not supported in recent versions of octo/elixir
+
+# echo ""
+# echo "------ Running setup script for UI..."
+# echo ""
+
+# ./ui/bin/setup
+
+echo ""
+echo "------ Fin ------"
+echo ""
