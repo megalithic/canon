@@ -6,6 +6,7 @@ Taking your various social media bookmarks and favorites and aggregating them in
 #### Supports
 
 - [ ] Instagram (saved)
+  * https://www.instagram.com/developer/clients/manage/
 - [ ] Twitter (liked)
 - [ ] Facebook (saved)
 - [ ] Slack (starred)
