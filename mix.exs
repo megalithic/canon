@@ -43,7 +43,8 @@ defmodule Canon.MixProject do
       {:plug_cowboy, "~> 2.0"},
       {:comeonin, "~> 4.1"},
       {:argon2_elixir, "~> 1.3"},
-      {:guardian, "~> 1.1"}
+      {:guardian, "~> 1.1"},
+      {:httpoison, "~> 1.4"}
     ]
   end
 
